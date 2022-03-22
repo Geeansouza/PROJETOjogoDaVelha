@@ -26,7 +26,7 @@
             android:fontFamily="@font/rambla"
             android:text="Tipo de Jogo"
             android:textColor="#FFFFFF"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:textStyle="bold" />
 
     <Button
