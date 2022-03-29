@@ -30,6 +30,7 @@
             android:textStyle="bold" />
 
     <Button
+        android:id="@+id/buttonJogadorVsJogador"
         android:layout_width="260dp"
         android:layout_height="61dp"
         android:layout_gravity="center"
@@ -43,6 +44,7 @@
         app:iconTint="@color/black" />
 
     <Button
+        android:id="@+id/buttonJogadorVsCpu"
         android:layout_width="260dp"
         android:layout_height="61dp"
         android:layout_gravity="center"

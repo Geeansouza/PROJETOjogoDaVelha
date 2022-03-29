@@ -186,7 +186,7 @@
                     android:textStyle="bold">
                 </TextView>
             </LinearLayout>
-            <<LinearLayout
+            <LinearLayout
             android:layout_marginRight="20dp"
             android:layout_width="80dp"
             android:layout_height="match_parent"
