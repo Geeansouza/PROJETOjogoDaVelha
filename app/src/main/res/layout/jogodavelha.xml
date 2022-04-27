@@ -79,77 +79,98 @@
                 android:layout_height="wrap_content"
                 android:background="@color/opal"
                 android:layout_marginBottom="2dp">
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="@color/state_blues"
-                android:layout_marginRight="2dp">
-
-            </Button>
-            <Button
+            <ImageButton
+                android:id="@+id/j1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:background="@color/state_blues"
                 android:layout_marginRight="2dp"
-                android:layout_marginLeft="2dp">
-            </Button>
-            <Button
+                android:onClick="clickbtn">
+
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/j2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:background="@color/state_blues"
-                android:layout_marginLeft="2dp">
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                android:onClick="clickbtn">
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/j3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/state_blues"
+                android:layout_marginLeft="2dp"
+                android:onClick="clickbtn">
 
-            </Button>
+            </ImageButton>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="2dp"
-                android:layout_marginTop="2dp">
-                <Button
+                android:layout_marginTop="2dp"
+                android:onClick="clickbtn">
+
+                <ImageButton
+                    android:id="@+id/j4"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:layout_marginRight="2dp"
                     android:background="@color/state_blues"
-                    android:layout_marginRight="2dp">
+                    android:onClick="clickbtn">
 
-                </Button>
-                <Button
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/j5"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@color/state_blues"
                     android:layout_marginLeft="2dp"
-                    android:layout_marginRight="2dp">
-                </Button>
-                <Button
+                    android:layout_marginRight="2dp"
+                    android:onClick="clickbtn">
+                </ImageButton>
+                <ImageButton
+                    android:id="@+id/j6"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@color/state_blues"
-                    android:layout_marginLeft="2dp">
-                </Button>
+                    android:layout_marginLeft="2dp"
+                    android:onClick="clickbtn">
+                </ImageButton>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp">
-                <Button
+                <ImageButton
+                    android:id="@+id/j7"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@color/state_blues"
-                    android:layout_marginRight="2dp">
-                </Button>
-                <Button
+                    android:layout_marginRight="2dp"
+                    android:onClick="clickbtn">
+                </ImageButton>
+                <ImageButton
+                    android:id="@+id/j8"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@color/state_blues"
                     android:layout_marginLeft="2dp"
-                    android:layout_marginRight="2dp">
-                </Button>
-                <Button
+                    android:layout_marginRight="2dp"
+                    android:onClick="clickbtn">
+                </ImageButton>
+                <ImageButton
+                    android:id="@+id/j9"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@color/state_blues"
-                    android:layout_marginLeft="2dp">
-                </Button>
+                    android:layout_marginLeft="2dp"
+                    android:onClick="clickbtn">
+                </ImageButton>
             </LinearLayout>
 
 

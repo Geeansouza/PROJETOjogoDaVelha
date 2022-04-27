@@ -23,7 +23,7 @@ public class MainActivity : AppCompatActivity() {
     val buttonJogadorVsJogador = findViewById<Button>(R.id.buttonJogadorVsJogador)
         buttonJogadorVsJogador.setOnClickListener{
 
-            selecao()
+            jogodavelha()
         }
     }
 
@@ -33,8 +33,8 @@ public class MainActivity : AppCompatActivity() {
         val difficulty = Intent(this,difficulty::class.java)
         startActivity(difficulty)
     }
-    public fun selecao(){
-        val selecao = Intent(this,selecao::class.java)
-        startActivity(selecao)
+    public fun jogodavelha(){
+        val jogodavelha = Intent(this,jogodavelha::class.java)
+        startActivity(jogodavelha)
     }
 }
